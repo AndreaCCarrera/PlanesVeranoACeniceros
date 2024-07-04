@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLMostrarController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="608.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@palmeras.png" />
+         </image>
+      </ImageView>
+      <Button id="btVolver" layoutX="261.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleButtonVolver" prefHeight="33.0" prefWidth="89.0" style="-fx-background-color: #FF0062;" text="VOLVER" textFill="#e4e4e4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <TableView id="tablaPersonas" fx:id="tablaPersonas" layoutX="62.0" layoutY="71.0" prefHeight="260.0" prefWidth="472.0">
+        <columns>
+          <TableColumn fx:id="cNombre" prefWidth="135.0" style="-fx-background-color: #BDECB6;" text="Nombre" />
+          <TableColumn fx:id="cMote" prefWidth="101.0" style="-fx-background-color: #BDECB6;" text="Mote" />
+            <TableColumn fx:id="cEdad" prefWidth="89.0" style="-fx-background-color: #BDECB6;" text="Edad" />
+            <TableColumn fx:id="cDni" prefWidth="146.0" style="-fx-background-color: #BDECB6;" text="DNI" />
+        </columns>
+      </TableView>
+      <Label fx:id="titulo" layoutX="228.0" layoutY="26.0" text="LISTA PERSONAS" textFill="#ff0062">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

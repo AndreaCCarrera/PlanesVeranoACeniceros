@@ -1,0 +1,12 @@
+Diego-El gamer-user-24-8A-false-true
+Ignacio-El cinéfilo-user-34-1B-false-true
+Andrea-La creadora-admin-37-4C-true-true
+Kevin-El motorista-user-25-5D-false-true
+Jaime-El modas-user-20-6E-false-true
+Balmore-El loles-user-20-7F-false-true
+Sergio-El lector-user-21-8G-false-true
+Guzmán-El organizador-admin-27-9H-false-true
+Álex-El músicas-user-20-0I-false-true
+Javier-Javito-admin-28-1J-true-true
+David-El skater-user-25-2K-false-true
+Cid-El mago-admin-38-3L-true-true
